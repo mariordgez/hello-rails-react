@@ -12,12 +12,6 @@ const Message = () => {
     }
   }, [status]);
 
-  const flag = () => {
-    if (status == 'ready') {
-      return String.fromCodePoint(message.code_a, message.code_b);
-    }
-  };
-
   const newMessage = () => {
     if (status === 'ready') {
       dispatch(fetchMessage());
@@ -30,8 +24,7 @@ const Message = () => {
         <div>
           <h1>React-Rails!</h1>
           <div className="language-flag">
-            <h2>{message.language}</h2>
-            <span className="emoji">{flag()}</span>
+            <span className="emoji"></span>
           </div>
           <h2>{message.content}</h2>
           <button className="random" type="button" onClick={newMessage}>
