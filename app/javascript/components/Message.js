@@ -12,24 +12,12 @@ const Message = () => {
     }
   }, [status]);
 
-  const newMessage = () => {
-    if (status === 'ready') {
-      dispatch(fetchMessage());
-    }
-  };
-
   const loadMessage = (load = '') => (
     <div className={`container ${load}`}>
       {load !== '' && (
         <div>
-          <h1>React-Rails!</h1>
-          <div className="language-flag">
-            <span className="emoji"></span>
-          </div>
+          <h1>Welcome to React-Rails!</h1>
           <h2>{message.content}</h2>
-          <button className="random" type="button" onClick={newMessage}>
-            Random
-          </button>
         </div>
       )}
     </div>
