@@ -2,7 +2,7 @@
 
 # Hello-Rails-React!
 
-> Hello-Rails-React is a rails application that uses the react-rails gem. 
+> Hello-Rails-React is a rails application that uses the react-rails gem.
 
 This application will display a greeting randomly en several languages.
 
@@ -25,7 +25,7 @@ This application will display a greeting randomly en several languages.
 To get started, first, clone this project by using the following command:
 
 ```
-git clone https://github.com/ad9311/hello-rails-react.git
+git clone git@github.com:mariordgez/hello-rails-react.git
 ```
 
 ### Installaion
@@ -33,6 +33,7 @@ git clone https://github.com/ad9311/hello-rails-react.git
 Before launching the application, you will need to run a few commands in this order, line by line:</br>
 
 **NOTE:** Since react uses yarn it is recommended to use it as well.
+
 ```
 yarn install or npm install
 bundle install
@@ -46,9 +47,10 @@ Alternatively you can run `rails db:setup` instead of the last three commands.
 Then launch the application with:</br>
 
 `rails s` (Short for `rails server`) you wil see something like this:
+
 ```
 => Booting Puma
-=> Rails 6.1.4.1 application starting in development 
+=> Rails 6.1.4.1 application starting in development
 => Run `bin/rails server --help` for more startup options
 Puma starting in single mode...
 * Puma version: 5.5.2 (ruby 3.0.2-p107) ("Zawgyi")
@@ -60,6 +62,7 @@ Puma starting in single mode...
 * Listening on http://[::1]:3000
 Use Ctrl-C to stop
 ```
+
 Use one of the two links to open the application. Once the application is running, click the random button to get a random message.
 
 ### Troubleshooting
@@ -72,27 +75,27 @@ If the error persists run `rm -rf node_modules` (asumming you are on linux OS) a
 
 Api to get a random message:
 
-| Name     | Endpoint         | Method | Header                           |
-|----------|------------------|--------|----------------------------------|
-| Messages | /api/v1/messages | GET    | { "Accept": "application/json" } |
+| Name     | Endpoint     | Method | Header                           |
+| -------- | ------------ | ------ | -------------------------------- |
+| Messages | /v1/messages | GET    | { "Accept": "application/json" } |
 
 ## Contributing
 
 Contributions, issues and, feature requests are welcome!
 
-You can do it on [issues page](https://github.com/ad9311/hello-rails-react/issues).
+You can do it on [issues page](https://github.com/mariordgez/hello-rails-react/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## Authors
+## Author
 
-**Ángel Díaz**
+👤 **Mario Alberto Rodriguez Cota**
 
-- GitHub: [@ad9311](https://github.com/ad9311)
-- Twitter: [@adiaz9311](https://twitter.com/adiaz9311)
-- LinkedIn: [Ángel Díaz](https://www.linkedin.com/in/ad9311/)
+- GitHub: [@mariordgez](https://github.com/mariordgez)
+- Twitter: [@MarioRo75396624](https://twitter.com/MarioRo75396624)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/mario-alberto-rodriguez-cota-a2860a205)
 
 ## Show your support
 
