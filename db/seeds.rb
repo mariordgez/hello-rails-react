@@ -3,33 +3,18 @@
 
 Message.create([
   {
-    language: 'English',
-    code_a: '0x1F1EC',
-    code_b: '0x1F1E7',
-    content: 'Hello World! I am using the react-rails gem.'
+    content: 'Hello World! this was made with react-rails'
   },
   {
-    language: 'Spanish',
-    code_a: '0x1F1EA',
-    code_b: '0x1F1F8',
-    content: '¡Hola Mundo! Estoy usando la react-rails gem.'
+    content: '¡Hola Mundo! Esto fue hecho con react-rails'
   },
   {
-    language: 'Portuguese',
-    code_a: '0x1F1F5',
-    code_b: '0x1F1F9',
-    content: 'Olá Mundo! Eu estou usando a react-rails gem.'
+    content: 'Privet, mir, eto bylo sdelano s pomoshchyu React-Rails'
   },
   {
-    language: 'French',
-    code_a: '0x1F1EB',
-    code_b: '0x1F1F7',
-    content: "Bonjour le Monde! J'utilise le react-rails gem"
+    content: "Kon'nichiwa sekai koreha react - rails de tsukura remashita"
   },
   {
-    language: 'Italian',
-    code_a: '0x1F1EE',
-    code_b: '0x1F1F9',
-    content: 'Ciao Mondo! Sto usando la react-rails gem.'
+    content: 'hallo welt das wurde mit reaktionsschienen gemacht'
   }
 ]);

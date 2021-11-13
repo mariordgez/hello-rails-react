@@ -35,12 +35,7 @@ const Message = () => {
     </div>
   );
 
-  return (
-    <div>
-      hello
-      {status !== 'ready' ? loadMessage() : loadMessage('load')}
-    </div>
-  );
+  return <div>{status !== 'ready' ? loadMessage() : loadMessage('load')}</div>;
 };
 
 export default Message;
